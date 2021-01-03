@@ -4,6 +4,7 @@
 
 1) movie_grade_graph.py : 네이버 영화 평점 그래프 그리기
 2) movie_review_classification.py : 한국어 영화 리뷰 데이터을 이용한 분류기 학습 및 워드 클라우드 그리기
+3) youtube_review_crawling.py : 유튜브 댓글 수집
 
 </br >
 
@@ -22,6 +23,11 @@
 - nltk와 Okt를 이용한 리뷰의 자연어 처리 및 텍스트 분석, 형태소 분석
  - 테스트 문장이 긍정, 부정인지 판별
 - wordcloud를 이용한 긍정 리뷰의 시각화
+
+### youtube_review_crawling
+
+- selenium을 이용한 특정 유튜브 영상의 댓글 데이터 수집
+ - 소스 코드는 영상 1개만을 수집하지만 url 주소를 리스트에 넣을 경우 여러 유튜브 영상의 댓글 수집 가능
 
 </br >
 
