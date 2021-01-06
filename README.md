@@ -21,20 +21,20 @@
 - selenium을 이용한 특정 영화의 리뷰 데이터 수집
 - BeautifulSoup을 이용한 html 파싱으로 리뷰와 평점 추출
 - nltk와 Okt를 이용한 리뷰의 자연어 처리 및 텍스트 분석, 형태소 분석
- - 테스트 문장이 긍정, 부정인지 판별
+  - 테스트 문장이 긍정, 부정인지 판별
 - wordcloud를 이용한 긍정 리뷰의 시각화
 
 ### youtube_review_crawling
 
 - selenium을 이용한 특정 유튜브 영상의 댓글 데이터 수집
- - 소스 코드는 영상 1개만을 수집하지만 url 주소를 리스트에 넣을 경우 여러 유튜브 영상의 댓글 수집 가능
+  - 소스 코드는 영상 1개만을 수집하지만 url 주소를 리스트에 넣을 경우 여러 유튜브 영상의 댓글 수집 가능
 
 </br >
 
 ## 설치 환경
 
 - Pycharm
- - Python 3.8
+  - Python 3.8
 - beautifulsoup4 4.6.0
 - konlpy 0.5.2
 - nltk 3.5
@@ -48,8 +48,8 @@
 
 - jupyter notebook에서 작성된 코드로 pycharm이나 다른 환경에서 실행이 가능하지만 matplotlib의 경우 최신 버전이 아닌 3.2.0 버전으로 해야 오류가 발생하지 않습니다
 - konlpy의 경우
- 1) JAVA 1.7 이상 설치
- 2) JAVA_HOME Path 설정
- 3) JPype1 (>=0.57) 설치
- - 이 세가지가 선행 되어야 하며 만약 importerror: dll load failed while importing _sqlite3 이 오류가 뜬다면 https://www.sqlite.org/download.html 에서 
+  1) JAVA 1.7 이상 설치
+  2) JAVA_HOME Path 설정
+  3) JPype1 (>=0.57) 설치
+  - 이 세가지가 선행 되어야 하며 만약 importerror: dll load failed while importing _sqlite3 이 오류가 뜬다면 https://www.sqlite.org/download.html 에서 
   자신의 OS 환경에 맞는 파일을 다운 받은 후 system32 > dll 폴더에 넣어야 합니다.  
