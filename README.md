@@ -16,6 +16,10 @@
 - matplotlib.pyplot을 이용한 평점 그래프 그리기
   - 특정 영화 제목을 데이터 프레임에서 검색하여 그리기 가능
 
+<img src="https://user-images.githubusercontent.com/62510764/105808832-dc207500-5feb-11eb-8e4f-a2547787f7c7.JPG" height=100% width="100%"></img>
+
+</br >
+
 ### movie_review_classification
 
 - selenium을 이용한 특정 영화의 리뷰 데이터 수집
@@ -24,10 +28,16 @@
   - 테스트 문장이 긍정, 부정인지 판별
 - wordcloud를 이용한 긍정 리뷰의 시각화
 
+<img src="https://user-images.githubusercontent.com/62510764/105809104-72549b00-5fec-11eb-8bc5-71c8481ca561.JPG" height=100% width="100%"></img>
+
+</br >
+
 ### youtube_review_crawling
 
 - selenium을 이용한 특정 유튜브 영상의 댓글 데이터 수집
   - 소스 코드는 영상 1개만을 수집하지만 url 주소를 리스트에 넣을 경우 여러 유튜브 영상의 댓글 수집 가능
+
+<img src="https://user-images.githubusercontent.com/62510764/105809233-a7f98400-5fec-11eb-8eb3-773340cb1167.gif" height=100% width="100%"></img>
 
 </br >
 
